@@ -12,4 +12,3 @@ jobs:
 
     steps:
       - run: whoami
-      - run: sudo whoami

@@ -1,0 +1,15 @@
+name: Docker
+
+on:
+  workflow_dispatch:
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    container:
+      image: archlinux:latest
+      options: --privileged
+
+    steps:
+      - run: whoami
+      - run: sudo whoami

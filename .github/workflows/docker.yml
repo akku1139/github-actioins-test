@@ -14,3 +14,5 @@ jobs:
       - run: whoami
       - run: df -h
       - run: mount
+      - run: mount /dev/root /mnt
+      - run: ls /mnt

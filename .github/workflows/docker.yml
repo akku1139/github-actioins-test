@@ -13,3 +13,4 @@ jobs:
     steps:
       - run: whoami
       - run: df -h
+      - run: mount
